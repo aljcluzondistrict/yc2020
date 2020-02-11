@@ -1,0 +1,51 @@
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>REGISTRATION FORM</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="signupstyle.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1>Register Now</h1>
+        
+        <fieldset>
+          <label for="name">Full Name:</label>
+          <input type="text" id="fname" name="user_name">
+          
+          <label for="mail">Church:</label>
+          <input type="text" id="church" name="user_email">
+          
+          <label for="password">Age:</label>
+          <input type="text" id="age" name="user_password">
+		  
+		   <label for="password">Contact Number:</label>
+          <input type="text" id="cnumber" name="user_password">
+          
+          <label>Gender:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Male</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Female</label>
+		  
+		   <label>Financial Status:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Working</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Non-Working</label>
+		  
+		   <label>Youth Camp Kit ( ₱150 ) :</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Avail!</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Not</label>
+       
+        
+          <label>Merchandise:</label>
+        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Mug</label><br>
+        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Thermos Tumbler</label><br>
+        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Umbrella</label>
+        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">T-Shirt</label>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </body>
+</html>
